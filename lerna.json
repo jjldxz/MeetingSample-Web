@@ -1,0 +1,25 @@
+{
+  "packages": [
+    "packages/*"
+  ],
+  "npmClient": "yarn",
+  "userWorkspaces": true,
+  "version": "independent",
+  "command": {
+    "publish": {
+      "ignoreChanges": [
+        "ignored-file",
+        "*.md"
+      ]
+    },
+    "bootstrap": {
+      "ignore": "component-*",
+      "npmClientArgs": ["--no-package-lock"]
+    },
+    "version": {
+      "conventionalCommits": true,
+      "ignoreChanges": ["**/*.md", "**/example/**", "**/test/**"],
+      "message":"chore: package change"
+    }
+  }
+}

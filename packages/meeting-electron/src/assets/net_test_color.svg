@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61 (89581) - https://sketch.com -->
+    <title>代理</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-2-1首页-设置-视频" transform="translate(-18.000000, -137.000000)" fill="#127BF8">
+            <g id="代理设置" transform="translate(18.000000, 136.000000)">
+                <path d="M6,11 C7.1045695,11 8,11.8954305 8,13 L8,17 C8,18.1045695 7.1045695,19 6,19 L2,19 C0.8954305,19 1.3527075e-16,18.1045695 0,17 L0,13 C-1.3527075e-16,11.8954305 0.8954305,11 2,11 L6,11 Z M16,11 C17.1045695,11 18,11.8954305 18,13 L18,17 C18,18.1045695 17.1045695,19 16,19 L12,19 C10.8954305,19 10,18.1045695 10,17 L10,13 C10,11.8954305 10.8954305,11 12,11 L16,11 Z M11,1 C12.1045695,1 13,1.8954305 13,3 L13,7 C13,8.1045695 12.1045695,9 11,9 L7,9 C5.8954305,9 5,8.1045695 5,7 L5,3 C5,1.8954305 5.8954305,1 7,1 L11,1 Z" id="代理"></path>
+            </g>
+        </g>
+    </g>
+</svg>

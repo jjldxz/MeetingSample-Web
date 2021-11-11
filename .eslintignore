@@ -1,0 +1,4 @@
+dist
+packages/*/static/*
+packages/*/dist
+packages/*/dist_electron

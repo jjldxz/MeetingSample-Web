@@ -1,0 +1,59 @@
+{
+  "name": "root",
+  "private": true,
+  "version": "1.0.0",
+  "description": "root bootstrap",
+  "license": "MIT",
+  "scripts": {
+    "prepare": "husky install",
+    "preinstall": "node ./scripts/checkYarn.js",
+    "postinstall": "husky install",
+    "dev": "node scripts/dev.js",
+    "build": "node scripts/build.js",
+    "commit": "git add . && git-cz",
+    "push": "lerna version --conventional-commits",
+    "lint": "eslint . --ext .vue,.ts,.js --cache",
+    "fix": "eslint . --ext .vue,.ts,.js --cache --fix",
+    "clean": "lerna clean && rimraf packages/*/dist && rimraf packages/*/dist_electron"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-lerna-changelog"
+    }
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "lint-staged": {
+    "*.{js,ts,vue}": "eslint --fix",
+    "*.scss": "prettier --write"
+  },
+  "agora_electron": {
+    "electron_version": "10.2.0",
+    "arch": "x64",
+    "prebuilt": true
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "babel-eslint": "^10.1.0",
+    "commitizen": "^4.2.4",
+    "cross-spawn": "^7.0.3",
+    "cz-lerna-changelog": "^2.0.3",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.16.0",
+    "husky": "^7.0.1",
+    "lerna": "^4.0.0",
+    "lint-staged": "^11.1.2",
+    "package": "^1.0.1",
+    "prettier": "^2.3.2",
+    "rimraf": "^3.0.2",
+    "vue-eslint-parser": "^7.10.0"
+  }
+}

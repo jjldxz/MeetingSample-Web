@@ -1,0 +1,60 @@
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.flex-end {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.flex-v-end-h-center {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.flex-h-c-center {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-h-space-between {
+  display: flex;
+  justify-content: space-between;
+}
+.default-user-avatar {
+  background-size: 40px 40px;
+}
+.flex-v-center {
+  display: flex;
+  align-items: center;
+}
+.title-center {
+  color: #666666;
+}
+.dxz-blue {
+  background-color: #127bf8 !important;
+  border-color: #127bf8 !important;
+}
+.content-p {
+  padding: 0 30px !important;
+}
+::v-deep .v-menu__content {
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.1) !important;
+}
+::v-deep .mdi-square {
+  color: #eeeeee;
+}
+.normal-text {
+  font-size: 12px;
+}
+
+@keyframes fadeInOut {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+}

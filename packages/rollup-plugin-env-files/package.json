@@ -1,0 +1,31 @@
+{
+  "name": "@jjldxz/rollup-plugin-env-files",
+  "version": "1.0.0",
+  "main": "dist/rollup-plugin-env-files.cjs.js",
+  "module": "dist/rollup-plugin-env-files.es.js",
+  "license": "MIT",
+  "author": "jjldxz",
+  "repository": {
+    "type": "git",
+    "url": "",
+    "directory": "packages/rollup-plugin-env-files"
+  },
+  "peerDependencies": {
+    "rollup": "^2.56.2"
+  },
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "rollup -c"
+  },
+  "devDependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.56.2"
+  },
+  "dependencies": {
+    "@rollup/pluginutils": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "dotenv-expand": "^5.1.0",
+    "magic-string": "^0.25.7"
+  }
+}

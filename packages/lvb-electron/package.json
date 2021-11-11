@@ -1,0 +1,30 @@
+{
+  "name": "@jjldxz/lvb-electron",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "author": "jjldxz",
+  "engines": {
+    "node": ">=6.9.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "",
+    "directory": "packages/lvb-electron"
+  },
+  "agora_electron": {
+    "electron_version": "10.2.0",
+    "arch": "x64",
+    "prebuilt": true
+  },
+  "peerDependencies": {
+    "agora-electron-sdk": "^3.4.7-rc.1-build.817",
+    "axios": "^0.21.1",
+    "wolfy87-eventemitter": "^5.2.9"
+  },
+  "dependencies": {
+    "agora-electron-sdk": "^3.5.0-rc.4-build.101",
+    "axios": "^0.21.1",
+    "wolfy87-eventemitter": "^5.2.9"
+  }
+}
